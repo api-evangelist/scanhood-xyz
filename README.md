@@ -1,4 +1,4 @@
-# scanhood-xyz
+# ScanHood
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,108 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-scanhood-xyz is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://scanhood.xyz/
+ScanHood provides on‑chain data and automated safety heuristics for the Robinhood Chain. It offers a live token screener, honeypot and rug detection, tokenized stock listings, and a locked‑liquidity launchpad. The service is informational only and not financial advice, aiming to reduce risk for users exploring new tokens on Robinhood Chain.
+
+**Areas:** Honeypot Checker · Rug Scanner · Token Screener · Launchpad · API
+
+## ScanHood on APIs.io
+
+Everything profiled for ScanHood is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/scanhood-xyz/](https://apis.io/providers/scanhood-xyz/)** — or go straight to one of the APIs or properties below.
+
+### APIs (9)
+
+- [ScanHood Bots API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-bots-api/) — The Bots API from ScanHood — 1 operation(s) for bots.
+- [ScanHood Bridge Quote API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-bridge-quote-api/) — The Bridge Quote API from ScanHood — 1 operation(s) for bridge quote.
+- [ScanHood Launch API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-launch-api/) — The Launch API from ScanHood — 1 operation(s) for launch.
+- [ScanHood MCP API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-mcp-api/) — The Mcp API from ScanHood — 1 operation(s) for mcp.
+- [ScanHood Ohlcv API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-ohlcv-api/) — The Ohlcv API from ScanHood — 1 operation(s) for ohlcv.
+- [ScanHood Quote API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-quote-api/) — The Quote API from ScanHood — 1 operation(s) for quote.
+- [ScanHood Scan API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-scan-api/) — The Scan API from ScanHood — 1 operation(s) for scan.
+- [ScanHood Search API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-search-api/) — The Search API from ScanHood — 1 operation(s) for search.
+- [ScanHood Stockback API](https://apis.io/apis/scanhood-xyz/scanhood-xyz-stockback-api/) — The Stockback API from ScanHood — 2 operation(s) for stockback.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [ScanHood Agentic Access](https://apis.io/agentic-access/scanhood-xyz/scanhood-xyz-agentic-access/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ScanHood API Rules](https://apis.io/rules/scanhood-xyz/scanhood-xyz-rules/)
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [ScanHood Domain Security](https://apis.io/security/scanhood-xyz/scanhood-xyz-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://scanhood.xyz/)
+- [Documentation](https://scanhood.xyz/docs/)
+- [GitHub](https://github.com/scanhood/scanhood)
+
+## API Evangelist rating
+
+**Kin Score 26.1** — emerging · rubric 0.28.0 · scored 2026-11-24
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 42.7 |
+| Contract governance | 65.5 |
+| Operational transparency | 4.8 |
+| Developer ergonomics | 9.5 |
+| Access clarity | 0.0 |
+
+**Agent readiness 28.0** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | derived (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 4.9** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/scanhood-xyz/](https://apis.io/providers/scanhood-xyz/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for ScanHood: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/scanhood-xyz/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
